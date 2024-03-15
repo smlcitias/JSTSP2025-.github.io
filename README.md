@@ -1,1 +1,1 @@
-# JSTSP2025-.github.io
+# JSTSP2025.github.io
