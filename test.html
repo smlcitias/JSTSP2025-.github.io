@@ -1,0 +1,1957 @@
+@@ -1,535 +1,1232 @@
+<!DOCTYPE html>
+<html>
+
+<head pbzloc="275">
+    <!--<title>Bayesian Learning in Speech and Language Processing</title>-->
+
+    <head>
+        <title>IEEE JSTSP 2025</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta 2023="" and="" bayesian="" content="workshop," language="" machine="" name="keywords" natural=""
+            speech="" />
+        <meta content="https://rickyen1011.github.io/bayesian-learning" property="og:url" />
+        <!--<meta content="Bayesian Learning in Speech and Language Processing" property="og:site_name" /> -->
+        <meta content="" property="og:image" />
+        <meta content="" property="og:image:url" /><!--Twitter Card Stuff-->
+        <meta content="summary_large_image" name="twitter:card" />
+        <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="static/css/main.css" media="screen,projection" rel="stylesheet" type="text/css" />
+    </head>
+
+<body pbzloc="259">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header" pbzloc="4"><button class="navbar-toggle" data-target="#navbar-main"
+                    data-toggle="collapse" pbzloc="278" type="submit"></button></div>
+
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li pbzloc="10"><a href="#introduction">Introduction</a></li>
+                    <!--li><a href="#guidelines">Demo</a></li -->
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <!--li><a href="#accepted">Accepted Papers</a></li--><!--li><a href="#intro">Introduction</a></li-->
+                    <li><a href="#organizers">Organizers</a></li>
+                    <li><a href="#publications">Submissions</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#references">References</a></li>
+                    <!-- <li><a href="#sponsors">Sponsors</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container"><!-- <div class="page-header"></div> --><!-- <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>
+              Symposium for Celebrating 40 Years of Bayesian Learning in Speech and Language Processing and Beyond
+              
+                <a target="_blank" style="color:#aaa; font-size:15px;" href="">[paper]</a>
+              
+              
+                <a style="color:#aaa; font-size:15px;" href="#bibtex">[bibtex]</a>
+              
+            </h1>
+            <p class="lead authors"></p>
+          </div>
+        </div>
+      </div> -->
+        <div class="page-content" pbzloc="6">
+            <p>&nbsp;</p>
+
+            <div class="row" id="dates">
+                <div class="col-xs-12">
+                    <center>
+                        <h1>IEEE JSTSP Special Issue on Deep Multimodal Speech Enhancement and Separation</h1>
+                    </center>
+
+                    <div class="row" id="introduction">
+                        <div class="col-xs-12">
+                            <h2>Introduction</h2>
+                        </div>
+                    </div>
+                    <span pbzloc="8" style="font-size: 16px">The Bayes Rule was published in 1763 stating a simple
+                        theorem: P(A|B)=P(B|A)P(A)/P(B) which generated a long-lasting influence on many statistical
+                        inference applications. Since the first Bayesian learning speech paper that was published in
+                        ICASSP1983 [1], we have witnessed quite a few studies in the next 20 years on extending Bayesian
+                        learning to maximum a posteriori (MAP) estimation of hidden Markov model (HMM) [2-3]. Online
+                        adaptation of HMM and correlated HMM [4-5] have followed. Next, the popular maximum likelihood
+                        linear regression (MLLR) adaptation approach was formulated as MAPLR and extended to joint
+                        estimation [6]. To handle unseen units, structural MAP (SMAP) was developed [7] and extended to
+                        SMAPLR [8]. Online adaptation is often referred to as temporal prior evolution while tree-based
+                        SMAP was known as spatial prior evolution. In contrast to MAP, variational Bayesian [9] and
+                        Bayesian predictive classification [10] approaches have also been developed to extend as an
+                        alternative to point MAP estimation. A review of Bayesian learning for speech and language
+                        processing can be found in [11], while a book on variational Bayesian learning theory was also
+                        published [12]. More recently, Bayesian learning has been extended to handling DNN parameters
+                        [13-15]. We expect this direction to be extensively studied in the future, especially in the
+                        modern era of generative AI and large pre-trained models in which transfer learning becomes a
+                        viable tool to adapt general-purpose models to specific domains and applications.</span>
+
+                    <hr />
+                    <div class="row" id="schedule">
+                        <div class="col-xs-12" pbzloc="167">
+                            <h2 pbzloc="332">Tentative Schedule</h2>
+
+                            <h2 pbzloc="332"><span pbzloc="334" style="font-size: 20px">A total of&nbsp;four
+                                    and&nbsp;half hours after ASRU2023 at 14:00-18:30 on December 20</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul pbzloc="174">
+                                <li pbzloc="271"><span style="font-size: 16px">Plenary Speaker: Chin-Hui Lee (30
+                                        minutes)</span></li>
+                                <li pbzloc="321"><span pbzloc="290" style="font-size: 16px">Six Invited Speakers (Key
+                                        contributions to Bayesian Learning in speech and language processing in the last
+                                        40 years): Qiang Huo, Torbjorn Svendsen (or Olivier Siohan), Shinji Watanabe,
+                                        Koichi Shinoda, Jen-Tzung Chien, Marco Siniscalchi (15 minutes each&nbsp;for a
+                                        total of 90 minutes)</span></li>
+                                <li><span style="font-size: 16px">Panel Discussion: all seven invited speakers as
+                                        panelists (30 minutes)</span></li>
+                                <li><span style="font-size: 16px">Break and Social Discussions (30 minutes)</span></li>
+                                <li><span pbzloc="305" style="font-size: 16px">Poster Session: 12-15 posters (90
+                                        minutes)</span></li>
+                                <li pbzloc="172"><span style="font-size: 16px">Workshop Dinner: hosted by the Organizer
+                                        right after rhe Symposium&nbsp;</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>&nbsp;</p>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr pbzloc="179">
+                                        <td pbzloc="306"><span pbzloc="308" style="font-size: 16px">14:00</span></td>
+                                        <td><span style="font-size: 16px">Historical Perspective &amp; Beyond</span>
+                                        </td>
+                                        <td><span style="font-size: 16px">C.-H. Lee</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="309" style="font-size: 16px">14:30</span></td>
+                                        <td><span style="font-size: 16px">Online and Correlated HMMs</span></td>
+                                        <td><span style="font-size: 16px">Q. Huo</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="310" style="font-size: 16px">14:45</span></td>
+                                        <td><span style="font-size: 16px">Joint MAP of LR and HMMs</span></td>
+                                        <td><span style="font-size: 16px">T. K. Svendsen</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="311" style="font-size: 16px">15:00</span></td>
+                                        <td><span pbzloc="241" style="font-size: 16px">Variational Bayesian
+                                                Learning</span></td>
+                                        <td><span style="font-size: 16px">S. Watanabe</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="312" style="font-size: 16px">15:15</span></td>
+                                        <td><span pbzloc="242" style="font-size: 16px">Structural MAP for LR &amp;
+                                                HMMs</span></td>
+                                        <td><span style="font-size: 16px">K. Shinoda</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="313" style="font-size: 16px">15:30</span></td>
+                                        <td><span style="font-size: 16px">MAP for N-grams and Beyond</span></td>
+                                        <td><span style="font-size: 16px">J.-T. Chien</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="314" style="font-size: 16px">15:45</span></td>
+                                        <td><span style="font-size: 16px">MAP for DNN Parameters</span></td>
+                                        <td><span style="font-size: 16px">S.M. Siniscalchi</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="315" style="font-size: 16px">16:00</span></td>
+                                        <td><span style="font-size: 16px">Panel Discussion</span></td>
+                                        <td><span style="font-size: 16px">All 7 speakers</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="316" style="font-size: 16px">16:30</span></td>
+                                        <td><span style="font-size: 16px">Break</span></td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span pbzloc="317" style="font-size: 16px">17:00</span></td>
+                                        <td><span style="font-size: 16px">Poster Contributions</span></td>
+                                        <td pbzloc="323">All participants</td>
+                                    </tr>
+                                    <tr>
+                                        <td pbzloc="325"><span pbzloc="322" style="font-size: 16px">18:30</span></td>
+                                        <td><span style="font-size: 16px">Closing</span></td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row" id="speakers">
+                        <div class="col-xs-12">
+                            <h2 pbzloc="326">Honorary Committee Chair</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6 col-lg-3"><a href="https://chl.ece.gatech.edu/"><img class="people-pic"
+                                    src="pics/chl.jpg" /> </a>
+
+                            <div class="people-name" pbzloc="198"><a href="https://chl.ece.gatech.edu/"
+                                    pbzloc="187">Chin-Hui Lee</a>
+
+                                <h5 pbzloc="200">Georgia Institute of Technology</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Georgia Institute of Technology</span></div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div class="row" id="speakers">
+                        <div class="col-xs-12">
+                            <h2>Invited Speakers</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://www.microsoft.com/en-us/research/people/qianghuo" pbzloc="199"><img
+                                    class="people-pic" src="pics/qiang.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="202"><a
+                                    href="https://www.microsoft.com/en-us/research/people/qianghuo">Qiang Huo</a>
+
+                                <h5 pbzloc="200">Microsoft Research</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Microsoft Research</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a href="https://www.ntnu.edu/employees/torbjorn.svendsen"><img
+                                    class="people-pic" src="pics/svendsen.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="209"><a
+                                    href="https://www.ntnu.edu/employees/torbjorn.svendsen" pbzloc="203">Torbjorn
+                                    Svendsen</a>
+
+                                <h5 pbzloc="207">Norwegian University of Science &amp; Technology</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Norwegian University of Science & Technology</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="http://mi.eng.cam.ac.uk/~cz277/](https://sites.google.com/view/shinjiwatanabe"><img
+                                    class="people-pic" src="pics/shinhi.jpg" /> </a>
+
+                            <div class="people-name" pbzloc="206"><a
+                                    href="http://mi.eng.cam.ac.uk/~cz277/](https://sites.google.com/view/shinjiwatanabe">Shinji
+                                    Watanabe</a>
+
+                                <h5 pbzloc="204">Carnegie Mellon University</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Carnegie Mellon University</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://www.ks.c.titech.ac.jp/members/koichi-shinoda"><img class="people-pic"
+                                    src="pics/shinoda.png" /> </a>
+
+                            <div class="people-name" pbzloc="212"><a
+                                    href="https://www.ks.c.titech.ac.jp/members/koichi-shinoda">Koichi Shinoda</a>
+
+                                <h5>Tokyo Institute of Technology</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Tokyo Institute of Technology</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://scholar.nycu.edu.tw/en/persons/jen-tzung-chien"><img class="people-pic"
+                                    src="pics/chien.jpg" /> </a>
+
+                            <div class="people-name" pbzloc="215"><a
+                                    href="https://scholar.nycu.edu.tw/en/persons/jen-tzung-chien">Jen-Tzung Chien</a>
+
+                                <h5 pbzloc="217">National Yangming Chiaotung University</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">National Yangming Chiaotung University</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://scholar.google.it/citations?user=iHhGIcEAAAAJ&amp;hl=it"><img
+                                    class="people-pic" src="pics/marco.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="220"><a
+                                    href="https://scholar.google.it/citations?user=iHhGIcEAAAAJ&amp;hl=it">Sabato Marco
+                                    Siniscalchi</a>
+
+                                <h5>Kore University of Enna</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Kore University of Enna</span></div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div class="row" id="organizers">
+                        <div class="col-xs-12">
+                            <h2 pbzloc="225">Organizers</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://www.microsoft.com/en-us/research/people/jinyli/"><img class="people-pic"
+                                    src="pics/jinyu.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="224"><a
+                                    href="https://www.microsoft.com/en-us/research/people/jinyli/">Jinyu Li</a>
+
+                                <h5>Microsoft Research</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Microsoft Research</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a href="https://huckiyang.github.io/"><img class="people-pic"
+                                    src="pics/huck.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="228"><a href="https://huckiyang.github.io/">Chao-Han Huck
+                                    Yang</a>
+
+                                <h5 pbzloc="184">Amazon</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Amazon</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a href="http://mi.eng.cam.ac.uk/~cz277/"><img class="people-pic"
+                                    src="pics/chao.jpeg" /> </a>
+
+                            <div class="people-name" pbzloc="231"><a href="http://mi.eng.cam.ac.uk/~cz277/">Chao
+                                    Zhang</a>
+
+                                <h5>Tsinghua University</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Tsinghua University</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://homepage.iis.sinica.edu.tw/pages/whm/index_en.html" pbzloc="185"><img
+                                    class="people-pic" src="pics/wang.jpg" /> </a>
+
+                            <div class="people-name" pbzloc="234"><a
+                                    href="https://homepage.iis.sinica.edu.tw/pages/whm/index_en.html">Hsin-Min Wang</a>
+
+                                <h5 pbzloc="240">Academia Sinica</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Academia Sinica</span></div> -->
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-3"><a
+                                href="https://scholar.google.com/citations?user=ZO5e5I4AAAAJ&amp;hl=zh-TW"><img
+                                    class="people-pic" src="pics/tsao.jpg" /> </a>
+
+                            <div class="people-name" pbzloc="238"><a
+                                    href="https://scholar.google.com/citations?user=ZO5e5I4AAAAJ&amp;hl=zh-TW">Yu
+                                    Tsao</a>
+
+                                <h5>Academia Sinica</h5>
+                                <!-- <div><span pbzloc="334" style="font-size: 18px">Academia Sinica</span></div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr /> <!-- CfP --><!--
+<div class="row" id="cfp">
+  <div class="col-xs-12">
+    <h2>Call for Papers</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>
+      The workshop welcomes papers on a range of topics related but not limited to:
+    </p>
+    <p>
+          <ul>
+  <li>Adaptors and adaptation;</li>
+  <li>Efficient parameter tuning;</li>
+  <li>Bayesian inference;</li>
+  <li>Zero shot and few shot learning;</li>
+  <li>Self supervised learning and data-efficient fine-tuning;</li>
+  <li>Instruction tuning;</li>
+  <li>In context learning;</li>
+  <li>Chain of thoughts;</li>
+  <li>Out of distributions;</li>
+  <li>Bayesian approaches for uncertainty estimation;</li>
+          </ul>
+      </p>
+  </div>
+</div>
+-->
+                    <div class="row" id="publications">
+                        <div class="col-xs-12">
+                            <h2>Submissions</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p>All contributions to this Bayesian Celebration Workshop can be summarized in an abstract
+                                (limited to 200 words) to be published in the ASRU2023 Workshop Proceedings, 12-15
+                                poster contributions with relevant topics to Bayesian Learning will be selected from
+                                submissions and reviewed by the Organizers. Presentation materials for each
+                                contribution, including an extended abstract or short paper with 1 to 3 pages, and a
+                                poster with references will be published on a symposium page hyperlinked to the ASRU
+                                website. Call for contributions will be sent to all potential participants and published
+                                in the ASRU website soon with a submission deadline of December 1st, 2023. </p>
+                        </div>
+                    </div>
+
+                    <p>We welcome all submissions related to Bayesian learning, large models and generative models,
+                        including but not limited to:
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul pbzloc="174">
+                                <li pbzloc="271"><span style="font-size: 16px">Bayesian methods for machine learning and
+                                        deep learning</span></li>
+                                <li pbzloc="321"><span pbzloc="290" style="font-size: 16px">In-context learning and
+                                        generative models</span></li>
+                                <li><span style="font-size: 16px">Adaptation and few-shot learning for speech and
+                                        language processing</span></li>
+                                <li><span style="font-size: 16px">Theory and parameter efficient tuning for large speech
+                                        and language models</span></li>
+                                <li><span pbzloc="305" style="font-size: 16px">Multimodal intelligence across audio,
+                                        text, and vision</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <b>Dual-submission policy</b> - We welcome ongoing and unpublished work. We also include papers that
+                    are under review at the time of submission, or that have been recently accepted.<br />
+
+                    <b>Submissions and accepted papers</b> - Workshop submissions and reviews will be private. The
+                    camera-ready version of accepted papers will be shared on the workshop webpage. However, the hosting
+                    is not an official proceeding so the papers can be subsequently / concurrently submitted to other
+                    venues.<br />
+
+                    <b>In-person presentation</b> - Accepted extended abstracts and papers are expected to be presented
+                    in person. Online Presentation is exceptional based on visa difficulties.<br />
+
+                    <b> Submission Deadline: December 1st, and acceptance will be notified within one week after
+                        submission. <br />
+
+                        <div class="row">
+                            <div class="col-xs-12" pbzloc="3">
+                                <p pbzloc="7"> <a href="https://cmt3.research.microsoft.com/BLSLP2023" pbzloc="7">Paper
+                                        submission</a></p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12" pbzloc="3">
+                                <p pbzloc="7"> <a
+                                        href="https://www.overleaf.com/latex/templates/ieee-asru-23-bayesian-latex-template/npvwtgswdwkt"
+                                        pbzloc="7">Latex paper template</a></p>
+                            </div>
+                        </div>
+
+                        </p>
+
+
+                        <hr />
+                        <div class="row" id="registration">
+                            <div class="col-xs-12">
+                                <h2>Registration</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12" pbzloc="3">
+                                <p pbzloc="7">Participants need to register separately from the main ASRU Workshop. A
+                                    fee of USD$120 (covering Workshop, Proceedings, and Break) is required for
+                                    registering for the Bayesian Symposium. ASRU participants are welcome to join this
+                                    Celebration Workshop with an extra $100 (Satellite Workshop registration will be
+                                    done separately from ASRU Workshop registration). Student registration can have a
+                                    50% discount leading to USD $60 and USD $50 for non-ASRU-participant-student and
+                                    ASRU-participant-student respectively.</p>
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div class="row" id="accepted">
+                            <div class="col-xs-12">
+                                <h2 pbzloc="142">Accepted Presentations</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ol pbzloc="21">
+                                    <!--
+	<li>
+	<ul>
+-->
+                                    <li pbzloc="150">Multiple output samples per input in a single-output Gaussian
+                                        process</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="153">Bayesian adaptive learning to latent variables via Variational
+                                        Bayes and Maximum a Posteriori</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="16">Bayesian Example Selection for Speech-based In-Context Learning</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="288">Speaker Adaptation for Quantised End-to-End ASR Models</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="71">TS-HuBERT: Weakly-Supervised and Self-Supervised Speech Pre-Training
+                                        for Target-Speaker Speech Processing</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35">Variational Inference-Based Dropout in Recurrent Neural Networks for
+                                        Slot Filling in Spoken Language Understanding</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35">A PRELIMINARY STUDY ON ASSOCIATED LEARNING FOR ASR</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="99">Fast Posterior Sampling for Conditional Diffusion Model</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="92">Deep-Learning-Based Speech Enhancement with Maximum a Posteriori
+                                        Spectral Amplitude Estimation</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35">Interpretable Unified Language Checking</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35">Maximum a Posteriori Adaptation of Network Parameters in Deep Models
+                                    </li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="103">COSMIC: Data Efficient Instruction-tuning For Speech In-Context
+                                        Learning</li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="113">OrchestraLLM: Efficient Orchestration of Language Models for
+                                        Dialogue State Tracking</li>
+                                    <!--
+	</ul>
+	</li>
+-->
+                                </ol>
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div class="row" id="references">
+                            <div class="col-xs-12">
+                                <h2 pbzloc="142">Example related publications</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ol pbzloc="21">
+                                    <!--
+	<li>
+	<ul>
+-->
+                                    <li pbzloc="150"><span pbzloc="148">D. Michelsanti, Z.-H. Tan, S.-X. Zhang, Y. Xu,
+                                            M. Yu, D. Yu, and J. Jesper, &quot;An Overview of Deep-Learning-Based
+                                            Audio-Visual Speech Enhancement and Separation</a>,&quot; <em>IEEE/ACM
+                                                Transactions on Audio, Speech, and Language Processing </em>, vol. 29,
+                                            pp. 1368-1396, 2021.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="153"><span pbzloc="151">S.-Y. Chuang, H.-M. Wang, and Y. Tsao,
+                                            &quot;Improved Lite Audio-Visual Speech Enhancement,&quot; <em>IEEE/ACM
+                                                Transactions on Audio, Speech and Language Processing</em>, vol. 30, pp.
+                                            1345-1359, 2022.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="16"><span pbzloc="9">J.-C. Hou, S.-S. Wang, Y.-H. Lai, Y. Tsao, H.-W.
+                                            Chang, and H.-M. Wang, &quot;Audio-visual Speech Enhancement using
+                                            Multimodal Deep Convolutional Neural Networks,&quot; <em>IEEE Transactions
+                                                on Emerging Topics in Computational Intelligence</em>, vol. 2(2), pp.
+                                            117-128, 2018.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="288"><span pbzloc="42">C. Yu, K.-H. Hung, S.-S. Wang, Y. Tsao, and J.-w.
+                                            Hung, &quot;Time-Domain Multi-modal Bone/air Conducted Speech
+                                            Enhancement,&quot; <em>IEEE Signal Processing Letters</em>, vol. 27, pp.
+                                            1035-1039, 2020.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="71"><span pbzloc="60">Q. Huo and C.-H. Lee, &quot;<a
+                                                href="https://ieeexplore.ieee.org/document/701369">On-line Adaptive
+                                                Learning of the Correlated Continuous Density Hidden Markov Model for
+                                                Speech Recognition</a>,&quot; <em>IEEE Transactions on Speech and Audio
+                                                Processing</em>, vol. 6, no. 4, pp. 386-397, 1998.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35"><span pbzloc="127">O. Siohan, C. Chesta, and C.-H. Lee, &quot;<a
+                                                href="https://ieeexplore.ieee.org/document/917687">Joint Maximum A
+                                                Posteriori Adaptation of Transformation and HMM Parameters</a>,&quot;
+                                            <em>IEEE Transactions on Speech and Audio Processing</em>, vol. 9, no. 4,
+                                            pp. 417-428, 2001.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35"><span pbzloc="155">K. Shinoda and C.-H. Lee, &quot;<a
+                                                href="https://ieeexplore.ieee.org/abstract/document/906001">A Structural
+                                                Bayes Approach to Speaker Adaptation</a>,&quot; <em>IEEE Transactions on
+                                                Speech and Audio Processing</em>, vol. 9, no. 3, pp. 276-287,
+                                            2001.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="99"><span pbzloc="131">O. Siohan, T. A. Myrvoll, and C.-H. Lee, &quot;<a
+                                                href="https://www.sciencedirect.com/science/article/abs/pii/S0885230801901810">Structural
+                                                Maximum A Posteriori Linear Regression for HMM Adaptation</a>,&quot;
+                                            <em>Computer Speech and Language</em>, vol. 16, no. 1, pp. 5-24,
+                                            2002.</span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="92"><span pbzloc="131"><span pbzloc="124">S. Watanabe, Y. Minami, A.
+                                                Nakamura, and N. Ueda, &quot;<a
+                                                    href="https://proceedings.neurips.cc/paper/2002/file/d1a21da7bca4abff8b0b61b87597de73-Paper.pdf">Application
+                                                    of Variational Bayesian Approach to Speech Recognition</a>,&quot; in
+                                                <em>Proc. NIPS</em>, Vancouver, 2002.</span></span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35"><span pbzloc="131"><span pbzloc="49">Q. Huo and C.-H. Lee, &quot;<a
+                                                    href="https://ieeexplore.ieee.org/document/824706">A Bayesian
+                                                    Predictive Classification Approach to Robust Speech
+                                                    Recognition</a>,&quot; <em>IEEE Transactions on Speech and Audio
+                                                    Processing</em>, vol. 8, no. 2, pp. 200-204, 2000.</span></span>
+                                    </li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="35"><span pbzloc="131"><span pbzloc="75">C.-H. Lee and Q. Huo, &quot;<a
+                                                    href="https://ieeexplore.ieee.org/document/880082">On Adaptive
+                                                    Decision Rules and Decision Parameter Adaptation for Automatic
+                                                    Speech Recognition</a>,&quot; <em>Proceedings of the IEEE</em>, vol.
+                                                88, no. 8, pp. 1241-1269, 2000.</span></span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="103"><span pbzloc="131"><span pbzloc="118">S. Nakajima, K. Watanabe, M.
+                                                Sugiyama, <em><a
+                                                        href="https://www.cambridge.org/core/books/variational-bayesian-learning-theory/0F6AABA050630E01E1B6EDA5E2CAFA05">Variational
+                                                        Bayesian Learning Theory</a></em>, Cambridge University Press,
+                                                2019.</span></span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="113"><span pbzloc="131"><span pbzloc="145">Z. Huang, S. M. Siniscalchi,
+                                                and C.-H. Lee, &ldquo;<a
+                                                    href="https://www.sciencedirect.com/science/article/abs/pii/S0925231216310207">A
+                                                    Unified Approach to Transfer Learning of Deep Neural Networks with
+                                                    Applications to Speaker Adaptation in Automatic Speech
+                                                    Recognition</a>,&rdquo; <em>Neurocomputing</em>, vol. 218, pp.
+                                                448-459, 2016.</span></span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="123"><span pbzloc="131"><span pbzloc="145"><span pbzloc="155">Z. Huang,
+                                                    S. M. Siniscalchi, and C.-H. Lee, &ldquo;<a
+                                                        href="https://ieeexplore.ieee.org/document/7707403">Bayesian
+                                                        Unsupervised Batch and Online Speaker Adaptation of Activation
+                                                        Function Parameters in Deep Models for Automatic Speech
+                                                        Recognition</a>,&rdquo; <em>IEEE/ACM Transactions on Audio,
+                                                        Speech, and Language Processing</em>, vol. 25, no. 1, pp. 64-75,
+                                                    2017.</span></span></span></li>
+                                    <!--	</ul> -->
+
+                                    <!--	<ul> -->
+                                    <li pbzloc="121"><span pbzloc="131"><span pbzloc="145"><span pbzloc="155"><span
+                                                        pbzloc="153">Z. Huang, S. M. Siniscalchi, and C.-H. Lee,
+                                                        &ldquo;<a
+                                                            href="https://www.sciencedirect.com/science/article/abs/pii/S0167865517302581#preview-section-cited-by">Hierarchical
+                                                            Bayesian Combinations of Plug-in Maximum A Posteriori
+                                                            Decoders in Deep Neural Networks-based Speech Recognition
+                                                            and Speaker Adaptation</a>,&rdquo; <em>Pattern Recognition
+                                                            Letters</em>, vol. 98, pp. 1-7,
+                                                        2017.</span></span></span></span></li>
+                                    <!--
+	</ul>
+	</li>
+-->
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="text-center p-3">
+                            <h6 pbzloc="108"><span pbzloc="131"><span pbzloc="145"><span pbzloc="155"><span
+                                                pbzloc="153">Website theme is modified and inspired from the <a
+                                                    href="https://github.com/vigilworkshop/vigilworkshop.github.io">VIGIL
+                                                    workshop Series</a> by S. Florian <em>et
+                                                    al.</em></span></span></span></span></h6>
+                        </div>
+                </div>
+            </div>
+            <span pbzloc="131"><span pbzloc="145"><span pbzloc="155"><span pbzloc="153"><!-- Google analytics -->
+                            <script>
+                                (function (i, s, o, g, r, a, m) {
+                                    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                                        (i[r].q = i[r].q || []).push(arguments)
+                                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                                        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+                                ga('create', '', 'auto');
+                                ga('send', 'pageview');
+                            </script>
+                            <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+                            <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+                        </span></span></span></span>
+</body>
+
+</html>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header"><button class="navbar-toggle" data-target="#navbar-main" data-toggle="collapse"
+                    type="submit"></button></div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li><a href="#scope">Scope</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#important_Dates">Important Dates</a></li>
+                    <li><a href="#guest_editors">Guest Editors</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="page-content">
+            <p>&nbsp;</p>
+
+            <div class="row" id="dates">
+                <div class="col-xs-12">
+                    <center>
+                        <h1><b>IEEE JSTSP Special Issue on </b>Deep Multimodal Speech Enhancement and Separation</h1>
+                    </center>
+
+                    <h2>Call for Papers</h2>
+                    <h3 style="margin-top: 20px;">Manuscript Due: 30 September 2024</h3>
+                    <h3>Publication Date: May 2025</h3>
+                    <h4 style="margin-top: 20px;">The IEEE Journal of Selected Topics in Signal Processing invites
+                        submissions for a Special Issue on Deep Multimodal Speech Enhancement and Separation</h4>
+
+                    <!--Scope-->
+                    <div class="row" id="scope" style="margin-top: 30px;">
+                        <div class="col-xs-12">
+                            <h2>Scope</h2>
+                        </div>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify">Voice is the most commonly used modality
+                        by humans to communicate and psychologically blend into society. Recent technological advances
+                        have triggered the development of various voice-related applications in the information and
+                        communications technology market. However, noise, reverberation, and interfering speech are
+                        detrimental for effective communications between humans and other humans or machines, leading to
+                        performance degradation of associated voice-enabled services. To address the formidable
+                        speech-in-noise challenge, a range of speech enhancement (SE) and speech separation (SS)
+                        techniques are normally employed as important front-end speech processing units to handle
+                        distortions in input signals in order to provide more intelligible speech for automatic speech
+                        recognition (ASR), synthesis and dialogue systems. Emerging advances in artificial intelligence
+                        (AI) and machine learning, particularly deep neural networks, have led to remarkable
+                        improvements in SE and SS based solutions. A growing number of researchers have explored various
+                        extensions of these methods by utilising a variety of modalities as auxiliary inputs to the main
+                        speech processing task to access additional information from heterogeneous signals. In
+                        particular, multi-modal SE and SS systems have been shown to deliver enhanced performance in
+                        challenging noisy environments by augmenting the conventional speech modality with complementary
+                        information from multi-sensory inputs, such as video, noise type, signal-to-noise ratio (SNR),
+                        bone-conducted speech (vibrations), speaker, text information, electromyography, and
+                        electromagnetic midsagittal articulometer (EMMA) data. Various integration schemes, including
+                        early and late fusions, cross-attention mechanisms, and self-supervised learning algorithms,
+                        have also been successfully explored. </div>
+
+                    <hr />
+
+                    <!--Topic-->
+                    <div class="row" id="topics" style="margin-top: 30px;">
+                        <div class="col-xs-12">
+                            <h2>Topics</h2>
+                        </div>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;">This timely special
+                        issue aims to collate latest advances in multi-modal SE and SS systems that exploit both
+                        conventional and unconventional modalities to further improve state-of-the-art performance in
+                        benchmark problems. We particularly welcome submissions for novel deep neural network based
+                        algorithms and architectures, including new feature processing methods for multimodal and
+                        cross-modal speech processing. We also encourage submissions that address practical issues
+                        related to multimodal data recording, energy-efficient system design and real-time low-latency
+                        solutions, such as for assistive hearing and speech communication applications.
+                    </div>
+
+                    <div class="row" id="topics1" style="margin-top: 10px;">
+                        <div class="col-xs-12">
+
+                            <h2><span style="font-size: 16px">Special Issue research topics of
+                                    interest relate to open problems needing addressed. These include, but are not
+                                    limited to, the following.</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><span style="font-size: 16px">Novel acoustic features and
+                                        architectures for multi-modal SE (MM-SE) and multi-modal SS (MM-SS)
+                                        solutions.</span></li>
+                                <li><span style="font-size: 16px">The integration of
+                                        multiple data acquisition devices for multimodal learning and novel learning
+                                        algorithms robust to imperfect data.</span></li>
+                                <li><span style="font-size: 16px">Few-shot/zero-shot learning and adaptation
+                                        algorithms for MM-SE and MM-SS systems with a small amount of training and
+                                        adaptation data.</span></li>
+                                <li><span style="font-size: 16px">Self-supervised and unsupervised learning
+                                        techniques for MM-SE and MM-SS systems. </span></li>
+                                <li><span style="font-size: 16px">Adversarial learning for MM-SE and
+                                        MM-SS.</span></li>
+                                <li><span style="font-size: 16px">Large language model-based Generative
+                                        approaches for MM-SE and MM-SS&nbsp;</span></li>
+                                <li><span style="font-size: 16px">Low-delay, low-power, low-complexity
+                                        MM-SE and MM-SS models&nbsp;</span></li>
+                                <li><span style="font-size: 16px">Approaches that effectively reduce
+                                        model size and inference cost without reducing the speech quality and
+                                        intelligibility of processed signals.
+                                        &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Novel objective functions including
+                                        psychoacoustics and perceptually motivated loss functions for MM-SE and
+                                        MM-ES &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Holistic evaluation metrics for MM-SE
+                                        and MM-SS systems. &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Real-world applications and use-cases
+                                        of MM-SE and MM-SS, including human-human and human-machine communications
+                                        &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Challenges and solutions in the
+                                        integration of MM-SE and MM-SS into existing systems
+                                        &nbsp;</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;">We encourage
+                        submissions that not only propose novel approaches but also substantiate the findings with
+                        rigorous evaluations, including real-world datasets. Studies that provide insights into the
+                        challenges involved and the impact of MM-SE and MM-SS on end-users are particularly welcome.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;"><b>Submission
+                            Guidelines: </b>Manuscripts should be original and should not have been previously
+                        published or currently under consideration for publication elsewhere. All submissions will be
+                        peer-reviewed according to the IEEE Signal Processing Society review process. Authors should
+                        prepare their manuscripts according to the Instructions for Authors available from the
+                        Signal Processing Society website.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;">Follow the
+                        instructions given on the IEEE <a class="blue-text"
+                            href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topicssignal-processing">JSTSP
+                            webpage</a> and <a class="blue-text"
+                            href="https://mc.manuscriptcentral.com/jstsp-ieee">submit
+                            manuscripts</a>.
+
+                    </div>
+
+                    <hr />
+
+                    <!--Important Dates-->
+                    <div class="row" id="important_Dates" style="margin-top: 30px;">
+                        <div class="col-xs-12">
+                            <h2>Important Dates</h2>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <tr>
+                                <td>Submissions due:</td>
+                                <td style="padding: 0 20px;">30 September 2024</td>
+                            </tr>
+                            <tr>
+                                <td>First Review due:</td>
+                                <td style="padding: 0 20px;">15 December 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Revised manuscript due:</td>
+                                <td style="padding: 0 20px;">15 January 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Second review due:</td>
+                                <td style="padding: 0 20px;">15 February 2025</td>
+                            </tr>
+                            <tr>
+                                <td><b>Final Decision:</b></td>
+                                <td style="padding: 0 20px;"><b>28 February 2025</b></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr />
+
+                    <!--Guest Editors-->
+                    <div class="row" id="guest_editors" style="margin-top: 30px;">
+                        <div class="col-xs-12">
+                            <h2>Guest Editors</h2>
+                        </div>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;">
+                        For further information, please contact the guest editors at:
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <tr>
+                                <td style="padding: 5px;">AMIR HUSSAIN (Edinburgh Napier University, UK,
+                                    hussain.doctor@gmail.com) (Lead GE)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">YU TSAO (Academia Sinica, Taiwan, yu.tsao@citi.sinica.edu.tw)
+                                    (co-Lead GE)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">JOHN H.L. HANSEN (University of Texas at Dallas, USA,
+                                    john.hansen@utdallas.edu)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">NAOMI HARTE (Trinity College Dublin, Ireland, NHARTE@tcd.ie)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">SHINJI WATANABE (Carnegie Mellon University, USA,
+                                    swatanab@andrew.cmu.edu)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">ISABEL TRANCOSO (Instituto Superior T&eacute;cnico, IST,
+                                    Univ. Lisbon, Portugal,
+                                    sabel.trancoso00@gmail.com)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">SHIXIONG ZHANG (Tencent AI Lab, USA,
+                                    auszhang@global.tencent.com)</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;" class="red-text">
+                        Dear Editor and Reviewers:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        <span class="red-text">Special Issue Proposal for the IEEE JSTSP Title:</span> Deep Multimodal
+                        Speech Enhancement and Separation
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;" class="red-text">
+                        The Guest Editors very much appreciate the constructive comments and suggestions provided by the
+                        Editor and Reviewers. The attached special issue proposal has been substantially revised in
+                        light of these.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        * Timeliness:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "The description does not highlight clear new contributions. For example, the first paper listed
+                        under timeliness from 2017 has only one citation."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: References have been updated.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        * Broadness:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "Not so many groups working in this area. The list of potential authors is not so long."
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;" class="red-text">
+                        Response: The list of potential authors has been expanded to demonstrate growing interest in
+                        this area.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        * Cross-communities:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "No obvious relation to other societies and also none listed in the proposal."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "Not so relevant for other IEEE societies."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: Relevance to other IEEE societies has been clarified.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        * Target Authors:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "Reasonable list but somewhat short."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "Good paper list; could have had more authors."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: The list of potential authors had been expanded.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        * Guest editors' diversity:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "This is a weak area of the proposal. There is no GE from industry."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        "Good geographical and topic diversity. Poor gender diversity."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: There are now two females in our guest editor team.
+                        <span class="purple-text">One guest editor is from the industry.</span>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;" class="red-text">
+                        <b>** Suggested improvements:</b>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        While an important component: Drafted CFP is missing in the present version of the proposal, I
+                        still believe that this is worthy to be accepted in terms of all the other required aspects for
+                        a special issue proposal.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: A draft CFP is now appended at the end of the proposal.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        One minor note: the last guest editor serves also another special issue of this journal about
+                        the similar timeline and I am not sure if there is any workload/conflict issue. (EIC note: This
+                        is an undesired situation.)
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: The last guest editor has been replaced with Prof Isabel Trancoso, which also
+                        strengthens the gender diversity of our team.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        Improve industry component in the GE team.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        <span class="red-text">Response:</span> Dr. Shixiong Zhang from Tencent AI Lab has joined our
+                        guest editorial team.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        1) multimodal: the authors are encouraged to elaborate more on "multimodal" for SS/SE, e.g.,
+                        which multimodal signals are beneficial and how these signals help SS and SE. Multimodal seems a
+                        highlighted difference, but the description for now is not that clear.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        <span class="red-text">Response:</span> We have tried to address this issue in further detail.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        2) the title of this SI might be optimized (e.g., Deep Multimodal Speech Enhancement and
+                        Separation).
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class="red-text">
+                        Response: Done
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;" class="red-text">
+                        Guest Editor team:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;" class=" red-text">
+                        Profs. Amir Hussain, Yu Tsao, John H. L. Hansen, Namoi Harte, Shinji Watanabe, Isabel Trancoso
+                        and Shixiong Zhang
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 30px;">
+                        <b>* Special Issue Proposal for the IEEE JSTSP</b>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        Deep Multimodal Speech Enhancement and Separation
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        A. Abstract and Relevance
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        Voice is the most commonly used modality by humans to communicate and psychologically blend into
+                        society. Recent technological advances have triggered the development of various voice-related
+                        applications in the information and communications technology market. However, noise,
+                        reverberation, and interfering speech are detrimental for effective communications between
+                        humans and other humans or machines, leading to performance degradation of associated
+                        voice-enabled services. To address the formidable speech-in-noise challenge, a range of speech
+                        enhancement (SE) and speech separation (SS) techniques are normally employed as important
+                        front-end speech processing units to handle distortions in input signals in order to provide
+                        more intelligible speech for automatic speech recognition (ASR), synthesis and dialogue systems.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        Emerging advances in artificial intelligence (AI) and machine learning, particularly deep neural
+                        networks, have led to remarkable improvements in SE and SS based solutions. A growing number of
+                        researchers have explored various extensions of these methods by utilising a variety of
+                        modalities as auxiliary inputs to the main speech processing task to access additional
+                        information from heterogeneous signals. In particular, multi-modal SE and SS systems have been
+                        shown to deliver enhanced performance in challenging noisy environments by augmenting the
+                        conventional speech modality with complementary information from multi-sensory inputs, such as
+                        video<span class=" red-text">(e.g for tracking lip movements)</span>, noise type,
+                        signal-to-noise ratio (SNR), bone-conducted speech (vibrations), speaker, text information,
+                        electromyography, and electromagnetic midsagittal articulometer (EMMA) data. Various integration
+                        schemes, including early and late fusions, cross-attention mechanisms, and self-supervised
+                        learning algorithms, have also been successfully explored.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        This timely special issue aims to collate latest advances in multi-modal SE and SS systems that
+                        exploit both conventional and unconventional modalities to further improve state-of-the-art
+                        performance in benchmark problems. We particularly welcome submissions for novel deep neural
+                        network based algorithms and architectures, including new feature processing methods for
+                        multimodal and cross-modal speech processing. We also encourage submissions that address
+                        practical issues related to multimodal data recording, energy-efficient system design and
+                        real-time low-latency solutions, such as for assistive hearing and speech communication
+                        applications.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        We anticipate that this special issue can make a valuable contribution to integration with
+                        various subsequent tasks, including
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;" class=" red-text">
+                        <ul style="list-style-type: none;">
+                            <li><span style="font-size: 16px">(1) Biomedical engineering: assistive hearing
+                                    technologies
+                                </span></li>
+                            <li><span style="font-size: 16px">(2) Affective computing:
+                                    multimodal emotion/pathological recognition
+                                </span></li>
+                            <li><span style="font-size: 16px">(3) Human-computer interface: multimodal ASR in
+                                    noise/reverberant conditions
+                                </span></li>
+                            <li><span style="font-size: 16px" class=" red-text">AR/VR: enhanced speech can provide
+                                    better quality to AR/VR applications
+                                </span></li>
+                        </ul>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;" class=" red-text">
+                        Outcomes of this special issue will be of relevance to the scope of various other IEEE
+                        societies, such as:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;" class=" red-text">
+                        <ul style="list-style-type: none;">
+                            <li><span style="font-size: 16px">(1) IEEE Consumer Technology Society (CTSoc):
+                                    The subject matter has direct relevance to practical applications in consumer
+                                    electronics
+                                </span></li>
+                            <li><span style="font-size: 16px">(2) IEEE Engineering in Medicine
+                                    and Biology Society (EMBS): Applications of special issue research topics in
+                                    assistive hearing and speech technologies will advance the interdisciplinary field
+                                    of biomedical engineering.
+                                </span></li>
+                            <li><span style="font-size: 16px">(3) IEEE Society for Social Implications of Technology
+                                    (SSIT): Multi-modal assistive hearing and speech communication devices targetted by
+                                    this special issue can deliver significant contributions to society.
+                                </span></li>
+                            <li><span style="font-size: 16px">(4) IEEE Circuits and Systems Society (CSS): The special
+                                    issue features novel model architectures to implement multimodal speech enhancement
+                                    in real-world applications, considering practical computational, energy and latency
+                                    constraints. This aspect holds significance relevance for IEEE CSS.
+                                </span></li>
+                        </ul>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;">
+                        Special Issue research topics of interest relate to open problems needing addressed. These
+                        include, but are not limited to, the following.
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><span style="font-size: 16px">Novel acoustic features and architectures
+                                        for multi-modal SE (MM-SE) and multi-modal SS (MM-SS) solutions. </span></li>
+                                <li><span style="font-size: 16px">The integration of multiple
+                                        data acquisition devices for multimodal learning and novel learning algorithms
+                                        robust to imperfect data.</span></li>
+                                <li><span style="font-size: 16px">Few-shot/zero-shot learning and adaptation algorithms
+                                        for MM-SE and MM-SS systems with a small amount of training and adaptation
+                                        data.</span></li>
+                                <li><span style="font-size: 16px">Self-supervised and unsupervised learning techniques
+                                        for MM-SE and MM-SS systems.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Approaches that effectively reduce model
+                                        size and inference cost without reducing the speech quality and intelligibility
+                                        of processed signals.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Novel objective functions that
+                                        specifically aim to improve speech intelligibility/quality/automatic speech
+                                        recognition accuracy.
+                                        &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Novel applications of MM-SE and MM-SS in
+                                        human-human and human-machine communications.
+                                        &nbsp;</span></li>
+                                <li><span style="font-size: 16px">Holistic evaluation metrics for MM-SE and
+                                        MM-SS systems.
+                                        &nbsp;</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        B. Timeliness
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        In recent years, a growing number of researchers have attempted to incorporate diverse
+                        modalities as auxiliary inputs for SE and SS models to access additional information. Visual
+                        clues represent an important modality that carry information complementary to speech signals for
+                        everyday communication. For example, the McGurk effect refers to cross-effects between
+                        visualized mouth or lip shapes and human hearing perception. From this perspective, numerous
+                        audio-visual MM-SE and MM-SS approaches have been proposed.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        Related work by ASR researchers has also demonstrated the potential of audio-visual speech
+                        recognition to improve the noise robustness of speech recognition in the real world (e.g.
+                        <a class="blue-text"
+                            href="https://doi.org/10.20965/jrm.2017.p0105">https://doi.org/10.1109/TPAMI.2018.2889052)</a>.
+                        Such multimodal approaches clearly demonstrate that
+                        visual cues can successfully enhance the performance of audio-only speech processing. In
+                        addition to visual information, several studies have proposed contextually incorporating speaker
+                        and speaking environment modules into SE and SS models. For example, speaking environment
+                        information such as SNR and noise types has been used to enhance SE models. Other studies have
+                        used speaker identity as prior knowledge for implementing SE or SS systems.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        A recent timely review of audio-visual based SE and SS approaches was published in the IEEE
+                        TASLP, which reported a significant and growing number of influential works(
+                        <a class="blue-text"
+                            href="https://ieeexplore.ieee.org/document/9380418">https://ieeexplore.ieee.org/document/9380418</a>).
+                        Other notable examples of ongoing globally
+                        impactful interdisciplinary research in this area include the UK Engineering and Physical
+                        Sciences Research Council (EPSRC) funded multi-million pound research programme (COG-MHEAR) that
+                        is developing real-time cognitively-inspired MM-SE and MM-SS approaches to transform the
+                        next-generation of assistive hearing and speech communication technology (<a class="blue-text"
+                            href="http://cogmhear.org">http://cogmhear.org</a>).
+
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify ;margin-top: 10px;">A related 2023 ICASSP
+                        Satellite Workshop was recently successfully organised on &quot;Advances in multi-modal hearing
+                        assistive technologies (AMHAT)&quot;. This complements the world&apos;s first annual
+                        Audio-Visual Speech
+                        Enhancement Challenge (AVSEC) organised as part of the 2023 IEEE ASRU Workshop(
+                        <a class="blue-text" href="http://challenge.cogmhear.org">http://challenge.cogmhear.org</a>),
+                        and the Speech Enhancement for Augmented Reality (SPEAR) Challenge (<a class="blue-text"
+                            href="https://imperialcollegelondon.github.io/spear-challenge/">https://imperialcollegelondon.github.io/spear-challenge/</a>).
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify; margin-top: 20px;">
+                        C. Applications
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><span style="font-size: 16px">The MM-SE and MM-SS topics covered in
+                                        this proposed special issue span a wide range of challenging real-world
+                                        applications, including the following.</span></li>
+                                <li><span style="font-size: 16px">Important downstream tasks:
+                                        automatic speech recognition, speaker and language recognition, voice
+                                        conversion, and speech synthesis.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Assistive listening, visual and multimodal speech
+                                        communication technologies.</span></li>
+                                <li><span style="font-size: 16px">Multimedia processing: multi-modal sentiment analysis,
+                                        multi-modal dialog systems, multi-modal information retrieval.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Cognitive robotics, including more
+                                        natural, multi-modal human-robot interaction and emerging AR/VR applications
+                                    </span></li>
+                                <li><span style="font-size: 16px">Wearable devices such as smart glasses
+                                        and chatbots as multimodal communication aids
+                                        &nbsp;</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        D. Broad Impact
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        With recent advances in sensing, computing, and communication technologies, vast amounts of
+                        audio, text, and video data can be accessed easily. Significant efforts have been made to
+                        combine complementary information from multiple data sources to facilitate improved speech
+                        signal processing performance. Notable achievements have been demonstrated for multimodal speech
+                        processing systems compared to mono-modal speech processing. This special issue focuses on
+                        advanced artificial intelligence models and methods for speech enhancement and separation with
+                        heterogeneous data, which we believe will elicit broad interest from various research
+                        communities, including in data acquisition, text processing, computer vision, speech, and
+                        multimedia processing. In particular, the unique focus of this special issue on cross-modality
+                        and multi-modality SE and SS approaches will impact a range of interdisciplinary research areas
+                        across speech, hearing and language processing, including for robotics, wearable devices, more
+                        natural human-computer interaction and emerging AR/VR applications.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        E. Broad Impact
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        The proposed special issue spans several areas of the IEEE SIGNAL PROCESSING SOCIETY. We aim to
+                        elicit submissions from multidisciplinary fields, specifically data acquisition, text
+                        processing, computer vision, speech, machine learning, model compression, and multimedia
+                        processing.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        F. Redundancy
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        We believe our proposal is the first special issue dedicated to advancing research in MM-SE and
+                        MM-SS to address a range of real-world speech-in-noise challenges. This is evidenced by our
+                        review of the following related special issues:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        The 2019 <i>IEEE JSTSP</i> Special issue on Far-Field Speech Processing in the Era of Deep
+                        Learning" in 2019 dealt with speech enhancement and separation but did not include multimodal
+                        aspects. Similarly the 2020 IEEE JSTSP Special Issue on "Reconstruction of audio from incomplete
+                        or highly degraded observations" also dealt with speech enhancement but did not address
+                        multimodal aspects. More recently, the 2022 IEEE JSTSP Special Issue on "Self-Supervised
+                        Learning for Speech and Audio Processing" dealt with general speech and audio processing
+                        applications but did not address multi-modal speech enhancement and separation challenges.
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        G. Potential contributors
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        Researchers expected to contribute original and tutorial/review papers to the SI are listed
+                        below:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;margin-top: 10px;">
+                        <ul style="list-style-type: none;">
+                            <li><span style="font-size: 16px">Prof Jesper Jensen, Prof Zheng-Hua Tan,
+                                    Aalborg University, Denmark
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Nima Mesgarani, Columbia
+                                    University, USA
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Qiang Huang, University of
+                                    Sunderland, UK
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Bernd T. Meyer, University
+                                    of Oldenburgh, Germany
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Dr Daniel Michelsanti, Oticon,
+                                    Denmark
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Dong Yu, Prof Meng Yu and
+                                    Prof Yong Xu, Tencent AI Lab, USA</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Sabato Marco Siniscalchi,
+                                    Norwegian University of Science and Technology</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Jun Du, University of
+                                    Science and Technology of China (USTC), China</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Dr Erfan Loweimi, University of
+                                    Cambridge, UK
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Ben Milner, University of
+                                    East Anglia, UK
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Jun-Cheng Chen, Academia
+                                    Sinica, Taiwan
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Prof Isabel Trancoso, IST, Univ.
+                                    Lisbon, Portugal
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Professor Xiao-Lei Zhang,
+                                    Northwestern Polytechnical University, China</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Professor Chin-Hui Lee, Georgia
+                                    Institute of Technology,USA</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Dr Andrew Abel, University of
+                                    Strathclyde, Glasgow, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px">Dr Kia Dashtipour, Dr Tassadaq
+                                    Hussain, Edinburgh Napier University, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Haizhou
+                                    Li, The Chinese University of Hong Kong, China</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Dr. Gordon
+                                    Wichern, Fran&ccedil;ois G Germain, Sameer Khurana, Chiori Hori, Jonathan LeRoux,
+                                    Mitsubishi Electric Research
+                                    Laboratories (MERL)</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Dr. Yoshiki
+                                    Masuyama, Tokyo Metropolitan University</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Maja
+                                    Pantic, Imperial College London, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Ahsan
+                                    Adeel, University of Stirling, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Qingyao
+                                    Wu, South China Universityof Technology, China</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Xinman
+                                    Zhang, Xi&apos;an JiaotongUniversity, China</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof Jon Barker,
+                                    University of Sheffield, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Hyung-Min
+                                    Park, Sogang University, South Korea</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Professor Wenwu
+                                    Wang, University of Surrey, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Dr. Ziyi Yang,
+                                    Microsoft
+                                </span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Shigeo
+                                    Morishima, Waseda University, Japan</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Dr. Peter Bell,
+                                    Dr Lorena Aldana, University of Edinburgh, UK</span></li>
+                            <li style="margin-top: 5px;"><span style="font-size: 16px" class="red-text">Prof. Liu
+                                    Xunying, The Chinese University of Hong Kong</span></li>
+                        </ul>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;">
+                        A timely review paper from the guest editors is also planned (provisional title: An Overview of
+                        Deep Neural Network Based Audio-Visual Speech Enhancement and Separation)
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        H. Diversity of Guest Editors
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        <ol>
+                            <li><span style="font-size: 16px">Technical diversity</span></li>
+                            <div style="font-size: 16px;text-align:justify; margin-bottom: 10px;">
+                                Guest editors include experts in multimodal speech signal processing, machine learning,
+                                information fusion, multimedia processing and hearing assistive technology.
+                            </div>
+                            <li><span style="font-size: 16px;">Geographical and gender
+                                    diversity</span></li>
+                            <div style="font-size: 16px;text-align:justify;">
+                                The geographical distribution of the proposed guest editors includes Asia, Europe and
+                                North America. The Special Issue co-ordinating guest editors are from the UK and Taiwan.
+                                <span class="red-text">Two of our Guest Editors are females.</span>
+                            </div>
+                        </ol>
+                    </div>
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        I. Guest editors and their qualifications
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        (Lead Guest Editor) AMIR HUSSAIN (Senior Member, IEEE) obtained his BEng (1st Class Honours) and
+                        PhD from the University of Strathclyde in Glasgow, UK, in 1992 and 1997 respectively. He is
+                        Director of the Centre of AI and Robotics at Edinburgh Napier University, UK. His research
+                        interests are cross-disciplinary and industry-led, and include a focus on cognitively-inspired
+                        multi-modal speech signal processing for assistive hearing and healthcare technologies. He has
+                        co-authored around 300 journal papers, supervised over 40 PhD students and led major national
+                        and international projects. He is currently leading research grants totalling over ?5M,
+                        including as Chief Investigator of the COG-MHEAR Programme Grant (funded under the UK EPSRC
+                        Transformative Healthcare Technologies 2050 Call) that aims to develop truly personalised,
+                        multi-modal hearing assistive technology. He is founding Chief Editor of (Springer's) Cognitive
+                        Computation journal and is/has been Associate Editor for various other journals including
+                        (Elsevier&apos;s) Information Fusion, the <i>IEEE Trans on Neural Networks and Learning Systems,
+                            IEEE Trans on Artificial Intelligence, IEEE Trans. on systems, Man Cybernetics: Systems, and
+                            IEEE Trans on Emerging Topics in Computational Intelligence. He is founding co-Chair of the
+                            UK Special Interest Group on Speech-based Multi-Modal Information Processing (UK-SIGMM),
+                            executive committee member of the UK Computing Research Committee (the national expert panel
+                            of the IET and BCS for UK computing research).</i> He has served as General Chair of IEEE
+                        WCCI 2020 (the world&apos;s largest technical event on computational intelligence, comprising
+                        the flagship IJCNN, FUZZ-IEEE and IEEE CEC) and the 2023 IEEE Smart World Congress (featuring
+                        six co-located IEEE Conferences).
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        (co-Lead Guest Editor) YU TSAO (Senior Member, IEEE) received the B.S. and M.S. degrees in
+                        electrical engineering from National Taiwan University, Taipei, Taiwan, in 1999 and 2001,
+                        respectively, and the Ph.D. degree in electrical and computer engineering from the Georgia
+                        Institute of Technology, Atlanta, GA, USA, in 2008. From 2009 to 2011, he was a Researcher with
+                        the National Institute of Information and Communications Technology, Tokyo, Japan, where he
+                        engaged in research and product development in automatic speech recognition for multilingual
+                        speech-to-speech translation. He is currently a Research Fellow (Professor) and the Deputy
+                        Director with the Research Center for Information Technology Innovation, Academia Sinica,
+                        Taipei. He is also a Jointly Appointed Professor with the Department of Electrical Engineering,
+                        Chung Yuan Christian University, Taoyuan, Taiwan. His research interests include assistive oral
+                        communication technologies, audio coding, and bio-signal processing. He was the recipient of
+                        National Innovation Awards from 2018 to 2021, the Future Tech Breakthrough Award 2019, and the
+                        Outstanding Elite Award from the Chung Hwa Rotary Educational Foundation (2019-2020). His papere
+                        been awarded the 2021 IEEE Signal Processing Society (SPS), Young Author and Best Paper Awards.
+                        He is currently an Associate Editor for the <i> IEEE/ACM Transactions on Audio, Speech and
+                            Language Processing and IEEE Signal Processing Letters</i>.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        JOHN H.L. HANSEN (Fellow, IEEE) received Ph.D. & M.S. degrees from Georgia Institute of
+                        Technology, and B.S.E.E. degree from Rutgers Univ. He joined Univ. of Texas at Dallas (UTDallas)
+                        in 2005, where he is Associate Dean for Research, Professor of Electrical & Computer
+                        Engineering, Distinguished Univ. Chair in Telecommunications Engineering, and holds a joint
+                        appointment in School of Behavioral & Brain Sciences (Speech & Hearing). At UTDallas, he
+                        established the Center for Robust Speech Systems (CRSS). He is an ISCA Fellow, IEEE Fellow, past
+                        Member and TC-Chair of IEEE Signal Proc. Society, Speech & Language Proc. Tech. Comm.(SLTC), and
+                        Technical Advisor to U.S. Delegate for NATO (IST/TG-01). He served as ISCA President
+                        (2018-2021), and currently serves as Treasurer and ISCA Board Member. He has supervised 99
+                        PhD/MS thesis candidates (58 PhD, 41 MS/MA), was recipient of 2020 UT-Dallas Provost&apos;s
+                        Award for Graduate Research Mentoring, 2005 Univ. Colorado Teacher Recognition Award, and
+                        author/co-author of +865 journal/conference papers in the field of speech/language/hearing
+                        science, processing & technology with machine learning advancements. He served as General Chair
+                        for ISCA INTERSPEECH-2002, Co-Chair for ISCA INTERSPEECH-2022, Co-Organizer and Tech. Chair for
+                        IEEE ICASSP-2010, and Co-General Chair and Organizer for IEEE Workshop on Spoken Language
+                        Technology (SLT-2014) (Lake Tahoe, NV). He is serving as Tech. Chair for IEEE ICASSP-2024. He
+                        received the IEEE Signal Processing Society&apos;s Leo Beranek MERITORIOUS SERVICE AWARD in
+                        2021/22 "for exemplary service to and leadership in the Signal Processing Society."
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        NAOMI HARTE is Professor in Speech Technology in the School of Engineering at Trinity College
+                        Dublin, Ireland. She is Co-PI and a founding member of the ADAPT SFI Centre. In ADAPT, she has
+                        led a major Research Theme centered on Multimodal Interaction involving researchers from
+                        Universities across Ireland and was instrumental in developing the future vision for the Centre
+                        for 2021-2026. She is also a lead academic of the hugely successful Sigmedia Research Group in
+                        the School of Engineering. She was appointed as an SFI Engineering Initiative Lecturer in
+                        Digital Media in TCD in 2008 Her research centres around Human Speech Communication. She treats
+                        speech as something we both hear and see, with a strong multimodal aspect to her work. Her
+                        research involves the design and application of mathematical algorithms to enhance or augment
+                        speech communication between humans and technology. Much of that work is underpinned by signal
+                        processing and machine learning, but also requires an understanding of how humans interact. Her
+                        current research projects include audio-visual speech recognition, speech synthesis evaluation,
+                        multimodal speech analysis, and birdsong. Her industrial background brings a real-world approach
+                        to her research. Prior to returning to academia, Naomi worked in high-tech start-ups in the
+                        field of DSP Systems Development, including her own company. She also previously worked in
+                        McMaster University in Canada. She was a Visiting Professor at ICSI in Berkeley in 2015, and
+                        became a Fellow of TCD in 2017. She earned a Google Faculty Award in 2018 and was shortlisted
+                        for the AI Ireland Awards in 2019. She currently serves on the Editorial Board of Computer
+                        Speech and Language and Chair of INTERSPEECH 2023.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        SHINJI WATANABE (Fellow, IEEE) is an Associate Professor at Carnegie Mellon University,
+                        Pittsburgh, PA. He has been actively working on deep learning based speech enhancement and
+                        separation for speech recognition applications, leading to the publication of more than 350
+                        papers in peer-reviewed journals and conferences and receiving several awards. These include the
+                        best paper award from the IEEE ASRU in 2019 for joint neural modeling of speech separation,
+                        beamforming, and speech recognition, which is related to this proposal. He also contributes to
+                        community-driven challenge activities, including CHiME speech recognition and separation
+                        challenges, which are famous speech processing activities, as an organizer and active
+                        participant. He organized two IEEE JSTSP Special issues on Self-Supervised Learning for Speech
+                        and Audio Processing and Far-Field Speech Processing in the Era of Deep Learning. He serves as a
+                        Senior Area Editor of the <i>IEEE Transactions on Audio Speech and Language Processing</i>. He
+                        was/has been a member of several technical committees, including the APSIPA Speech, Language,
+                        and Audio Technical Committee (SLA), IEEE Signal Processing Society Speech and Language
+                        Technical
+                        Committee (SLTC), and Machine Learning for Signal Processing Technical Committee (MLSP).
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        ISABEL TRANCOSO is a full professor (retired), at Instituto Superior T&eacute;cnico (IST, Univ.
+                        Lisbon), the University where she got her PhD degree in 1987. She was the founder of the Human
+                        Language Technology Lab and the former President of the Scientific Council of INESC ID Lisbon.
+                        She chaired the ECE Department of IST, was Editor-in-Chief of the <i>IEEE Transactions on Speech
+                            and Audio Processing</i> and had many leadership roles in SPS (Signal Processing Society of
+                        IEEE) and ISCA (International Speech Communication Association), namely having been President of
+                        ISCA. She is vice-chair of the IEEE Fellow Committee. She was elevated to IEEE Fellow in 2011,
+                        and to ISCA Fellow in 2014.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        SHIXIONG ZHANG from Tencent AI Lab, USA. He received his Ph.D. degree from Cambridge University
+                        in 2014. From 2014 to 2018, he was a senior speech scientist at Microsoft, speech group.
+                        Currently he is a principal researcher at Tencent AI Lab leading the multi-modal research for
+                        speech recognition, speaker diarization, speech separation. He was granted the "IC Greatness
+                        award" by Microsoft in 2015 for his contribution on the "Personalised Hey Cortana" system in
+                        Windows 10. He was nominated a 2011 Interspeech Best Student Paper Award for his paper
+                        "Structured Support Vector Machines for Noise Robust Continuous Speech Recognition". Shi-Xiong
+                        has served as a Program Committee member of APSIPA and the Area Chair of several international
+                        conferences, including ICASSP, Interspeech and ASRU in 2021 and 2022. He is also a member of
+                        IEEE Signal Processing Society Speech and Language Technical Committee (SLTC).
+                    </div>
+
+                    <hr />
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        <b>Example related publications</b>
+                    </div>
+                    <div style="font-size: 16px;text-align:justify;  margin-top: 10px;">
+                        <ol style="list-style-type: none;">
+                            <li><span style="font-size: 16px">D. Michelsanti, Z.-H. Tan, S.-X. Zhang, Y.
+                                    Xu, M. Yu, D. Yu, and J. Jesper, "An Overview of Deep-Learning-Based Audio-Visual
+                                    Speech Enhancement and Separation," <i>IEEE/ACM Transactions on Audio, Speech, and
+                                        Language Processing</i>, vol. 29, pp. 1368-1396, 2021.
+                                </span></li>
+                            <li><span style="font-size: 16px">S.-Y. Chuang, H.-M. Wang, and Y.
+                                    Tsao, "Improved Lite Audio-Visual Speech Enhancement,"<i>IEEE/ACM Transactions on
+                                        Audio, Speech and Language Processing</i>, vol. 30, pp. 1345-1359, 2022
+                                </span></li>
+                            <li><span style="font-size: 16px">J.-C. Hou, S.-S. Wang, Y.-H. Lai, Y. Tsao, H.-W. Chang,
+                                    and H.-M. Wang, "Audio-visual Speech Enhancement using Multimodal Deep Convolutional
+                                    Neural Networks," <i>IEEE Transactions on Emerging Topics in Computational
+                                        Intelligence</i>, vol. 2(2), pp. 117-128, 2018.
+                                </span></li>
+                            <li><span style="font-size: 16px">C. Yu, K.-H. Hung, S.-S. Wang, Y. Tsao, and J.-w. Hung,
+                                    "Time-Domain Multi-modal Bone/air Conducted Speech Enhancement,"" <i>IEEE Signal
+                                        Processing Letters</i>, vol. 27, pp. 1035-1039, 2020. </span>
+                            </li>
+                            <li><span style="font-size: 16px">L. A. Passos, J. P. Papa., J. D. Ser. A. Hussain, and A.
+                                    Adeel, "Multimodal Audio-visual Information Fusion using Canonical-correlated Graph
+                                    Neural Networks for Energy-efficient Speech Enhancement," <i>Information Fusion</i>,
+                                    vol. 90, pp. 1-11, 2023.
+                                </span></li>
+                            <li><span style="font-size: 16px">A. Adeel, M. Gogate, A. Hussain, and W. M. Whitmer,
+                                    "Lip-reading Driven Deep Learning Approach for Speech Enhancement," <i>IEEE
+                                        Transactions on Emerging Topics in Computational Intelligence</i>, vol. 5, no.
+                                    3, pp. 481-490, 2021
+                                </span></li>
+                            <li><span style="font-size: 16px">M. Gogate, K. Dashtipour, and A. Hussain, "CochleaNet: A
+                                    Robust Language-independent Audio-Visual Model for Speech Enhancement,"
+                                    <i>Information Fusion</i>, vol. 63, pp. 273-285, 2020.
+                                </span></li>
+                            <li><span style="font-size: 16px">J. Reverdy, S. O&apos;Connor Russell, L. Duquenne, D.
+                                    Garaialde, B. R. Cowan, and N. Harte. "RoomReader: A Multimodal Corpus of Online
+                                    Multiparty Conversational Interactions,"" in Proc. <i>ELRA 2022</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px">N. Harte and E. Gillen, "TCD-TIMIT: An Audio-Visual Corpus
+                                    of Continuous Speech," <i>IEEE Transactions on Multimedia</i>, vol. 17, no. 5, pp.
+                                    603-615, 2015.
+                                </span></li>
+                            <li><span style="font-size: 16px">T. Afouras, J. S. Chung, A., O. Vinyals, and A. Zisserman,
+                                    "Deep Audio-visual Speech Recognition" <i>IEEE Transactions on Pattern Analysis and
+                                        Machine Intelligence</i>, vol. 44(12), pp. 8717-8727, 2018.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Z. Yu, Z. Yin, D. Zhou, D. Wang, F. Wong,
+                                    and B. Wang,<i>"Talking Head Generation with Probabilistic Audio-to-visual Diffusion
+                                        Priors</i>," in Proc. CVPR 2022.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text"> J. Richter, S. Frintrop, and T.
+                                    Gerkmann. "Audio-visual Speech Enhancement with Score-Based Generative Models,"
+                                    <i>arXiv:2306.01432</i>,2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text"> Q. Zhu, L. Zhou, Z. Zhang, S. Liu, B.
+                                    Jiao, J. Zhang, et al., "Vatlm: Visual-audio-text Pre-training With Unified Masked
+                                    Prediction for Speech Representation Learning,"<i>IEEE Transactions on
+                                        Multimedia</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text"> R. Tan, et al. "Language-Guided
+                                    Audio-visual Source Separation via Trimodal Consistency," in <i>Proc. CVPR 2023</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">I-C. Chen, et al. "Audio-visual Speech
+                                    Enhancement and Separation by Utilizing Multi-modal Self-supervised Embeddings," in
+                                    <i>Proc. ICASSPW</i>,2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">J.-C. Chou, C.-M. Chien, and K. Livescu,
+                                    "AV2Wav: Diffusion-Based Re-synthesis from Continuous Self-supervised Features for
+                                    Audio-Visual Speech Enhancement," <i>arXiv:2309.08030</i>, 2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Y.-J. Lu, C.-Y. Chang, C. Yu, C.-F. Liu,
+                                    J.-W. Hung, S. Watanabe, and Y. Tsao, "Improving Speech Enhancement Performance by
+                                    Leveraging Contextual Broad Phonetic Class Information," <i>IEEE/ACM Transactions on
+                                        Audio, Speech, and Language Processing</i>, vol. 31, pp. 2738-2750, 2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text"> Y. Li, and X. Zhang, "Lip Landmark-based
+                                    Audio-visual Speech Enhancement With Multimodal Feature Fusion Network,"
+                                    <i>Neurocomputing</i>, vol. 549, 2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Xu, Haitao, et al. "A Multi-Scale Feature
+                                    Aggregation Based Lightweight Network for Audio-Visual Speech Enhancement," in
+                                    <i>Proc. ICASSP 2023</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">M. Chu, Y. Ma, Z. Fan, M. Yang, Z. Tao,
+                                    and D. Wu, "Gmasegan: A Global Multi-Head Attention Speech Enhancement Generative
+                                    Adversarial Network," <i>SSRN 4395061</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">L.-C. Chen, et al. "EPG2S: Speech
+                                    Generation and Speech Enhancement Based on Electropalatography and Audio Signals
+                                    using Multimodal Learning," <i>IEEE Signal Processing Letters</i>, vol. 29, pp.
+                                    2582-2586, 2022.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">K.-C. Wang, et al. "EMGSE: Acoustic/EMG
+                                    Fusion for Multimodal Speech Enhancement,"in <i>Proc. ICASSP 2022</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">J. W. Hwang, J. Park, R. H. Park, and H.
+                                    M. Park, "Audio-visual Speech Recognition Based on Joint Training with Audio-visual
+                                    Speech Enhancement for Robust Speech Recognition," <i>Applied Acoustics</i>, vol.
+                                    211, 2023.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Z. Zhu, H. Yang, M. Tang, Z. Yang, S. E.
+                                    Eskimez, and H. Wang, "Real-Time Audio-Visual End-To-End Speech Enhancement," in
+                                    <i>Proc. ICASSP 2023</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">T. Yoshinaga, K. Tanaka, and S.
+                                    Morishima, "Audio-Visual Speech Enhancement with Selective Off-Screen Speech
+                                    Extraction," <i>arXiv:2306.06495</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">C. Valentini-Botinhao, A. L. A. Blanco,
+                                    O. Klejch, and P. Bell, "Efficient Intelligibility Evaluation Using Keyword
+                                    Spotting: A Study on Audio-Visual Speech Enhancement," in <i>Proc. ICASSP 2023</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">L. A. Passos, et. al., "Multimodal Speech
+                                    Enhancement using Burst Propagation," <i>arXiv:2209.03275</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">K. Kinoshita, M. Delcroix, A. Ogawa, and
+                                    T. Nakatani, "Text-informed Speech Enhancement with Deep Neural Networks," in
+                                    <i>Proc. Interspeech 2015</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">J. Wu et al., "Time Domain Audio Visual
+                                    Speech Separation," in Proc. ASRU 2019J. Wu et al., "Time Domain Audio Visual
+                                    Speech Separation," in Proc. ASRU<i> 2019.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">R. Gu, S.-X. Zhang, Y. Xu, L. Chen, Y.
+                                    Zou, and D. Yu, "Multimodal Multi-channel Target Speech Separation," <i>IEEE Journal
+                                        of Selected Topics in Signal Processing</i>, vol. 14, no. 3, pp. 530-541, 2020.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Y.-L. Chien, H.-H. Chen, M.-C. Yen, S.-W.
+                                    Tsai, H.-M. Wang, Y. Tsao, and T.-S. Chi, "Audio-Visual Mandarin Electrolaryngeal
+                                    Speech Voice Conversion," in <i>Proc. Interspeech 2023</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">C.-F. Liao, Y. Tsao, X. Lu, and H. Kawai,
+                                    "Incorporating Symbolic Sequential Modeling for Speech Enhancement," in <i>Proc.
+                                        Interspeech 2019</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">H. Julien, J. Thomas, Z.
+                                    V&eacute;ronique, and B. &Eacute;ric, "Configurable EBEN: Extreme Bandwidth
+                                    Extension Network to Enhance Body-conducted Speech Capture," <i>IEEE/ACM
+                                        Transactions on Audio, Speech, and Language Processing, in press.</i>
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">J. Chen, M. Wang, X. L. Zhang, Z. Huang,
+                                    and S. Rahardja, "End-to-end Multi-modal Speech Recognition with Air and Bone
+                                    Conducted Speech, in <i>Proc. ICASSP 2022</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">H. Wang, X. Zhang, and D. Wang,
+                                    "Attention-based Fusion for Bone-conducted and Air-conducted Speech Enhancement in
+                                    the Complex Domain," in <i>Proc. ICASSP 2022</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">H. Wang, X. Zhang, and D. Wang, "Fusing
+                                    Bone-Conduction and Air-Conduction Sensors for Complex-Domain Speech
+                                    Enhancement,"<i>IEEE/ACM Transactions on Audio, Speech, and Language Processing</i>,
+                                    vol. 30,pp.3134-3143, 2022.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Y.-W. Chen, K.-H. Hung, S.-Y. Chuang, J.
+                                    Sherman, X. Lu, and Y. Tsao, "A study of Incorporating Articulatory Movement
+                                    Information in Speech Enhancement," in <i>Proc. EUSIPCO 2021</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">A. Ephrat, I. Mosseri, O. Lang, T. Dekel,
+                                    K. Wilson, A. Hassidim, W. T. Freeman, and M. Rubinstein. "Looking to Listen at the
+                                    Cocktail Party: A Speaker-independent Audio-visual Model for Speech Separation,"
+                                    <i>ACM Transactions on Graphics</i>, vol. 37(4):111, 2018.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">A. Gabbay, A. Shamir, and S. Peleg,
+                                    "Visual Speech Enhancement," in <i>Proc. Interspeech 2018</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">A. Ephrat, I. Mosseri, O. Lang, T. Dekel,
+                                    K. Wilson, A. Hassidim, W. T. Freeman, and M. Rubinstein. "Looking to Listen at the
+                                    Cocktail Party: A Speaker-independent Audio-visual Model for Speech Separation,"
+                                    <i>ACM Transactions on Graphics</i>, vol. 37(4):111, 2018.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">M. Liuzzolino and K. Koishida. "AV(se)2:
+                                    Audio-visual Squeeze-excite Speech Enhancement," in <i> Proc. ICASSP 2020</i>.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">D. Michelsanti, Z.-H. Tan, S. Sigurdsson,
+                                    and J. Jensen. "Deep-learning-based Audio-visual Speech Enhancement in the Presence
+                                    of Lombard Effect," <i>Speech Communication</i>, vol. 115, pp. 38-50, 2019.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">M. Sadeghi, S. Leglaive, X.
+                                    Alameda-Pineda, L. Girin, and R. Horaud, "Audio-visual Speech Enhancement using
+                                    Conditional Variational Auto-encoders," <i>IEEE/ACM Transactions on Audio,
+                                        Speech, and Language Processing</i>, vol. 28, pp.1788-1800, 2020.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="red-text">Wu, Jian, et al. "Time domain audio
+                                    visual speech separation." <i>2019 IEEE automatic speech recognition and
+                                        understanding workshop (ASRU). IEEE</i>, 2019.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="purple-text">Tan, Ke, et al. "Audio-visual speech
+                                    separation and dereverberation with a two-stage multimodal network."<i>IEEE Journal
+                                        of Selected Topics in Signal Processing 14.3 (2020)</i>: 542-553.
+                                </span></li>
+                            <li><span style="font-size: 16px" class="purple-text">A. Ephrat, I. Mosseri, O. Lang, T.
+                                    Dekel, K. Wilson, A. Hassidim, W. T. Freeman, and M. Rubinstein. "Looking to Listen
+                                    at the Cocktail Party: A Speaker-independent Audio-visual Model for Speech
+                                    Separation," <i>ACM Transactions on Graphics</i>, vol. 37(4):111, 2018.
+                                </span></li>
+                        </ol>
+                    </div>
+
+                    <hr />
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        J. Tentative Dates
+                    </div>
+                    <div class="table-container">
+                        <table class="red-text">
+                            <tr>
+                                <td>Manuscript submission due:</td>
+                                <td style="padding: 0 20px;">April 30, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>First review completed:</td>
+                                <td style="padding: 0 20px;">July 31, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Revised manuscript due:</td>
+                                <td style="padding: 0 20px;">October 15, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Second review completed:</td>
+                                <td style="padding: 0 20px;">January 31, 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Final manuscript due:</td>
+                                <td style="padding: 0 20px;">Feb 28, 2025</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr />
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;" class="red-text">
+                        Draft Call For Papers for IEEE JSTSP Special Issue - this will be uploaded on website after
+                        approval:
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        Voice is the most commonly used modality by humans to communicate and psychologically blend into
+                        society. Recent technological advances have triggered the development of various voice-related
+                        applications in the information and communications technology market. However, noise,
+                        reverberation, and interfering speech are detrimental for effective communications between
+                        humans and other humans or machines, leading to performance degradation of associated
+                        voice-enabled services. To address the formidable speech-in-noise challenge, a range of speech
+                        enhancement (SE) and speech separation (SS) techniques are normally employed as important
+                        front-end speech processing units to handle distortions in input signals in order to provide
+                        more intelligible speech for automatic speech recognition (ASR), synthesis and dialogue systems.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        Emerging advances in artificial intelligence (AI) and machine learning, particularly deep neural
+                        networks, have led to remarkable improvements in SE and SS based solutions. A growing number of
+                        researchers have explored various extensions of these methods by utilising a variety of
+                        modalities as auxiliary inputs to the main speech processing task to access additional
+                        information from heterogeneous signals. In particular, multi-modal SE and SS systems have been
+                        shown to deliver enhanced performance in challenging noisy environments by augmenting the
+                        conventional speech modality with complementary information from multi-sensory inputs, such as
+                        video, noise type, signal-to-noise ratio (SNR), bone-conducted speech (vibrations), speaker,
+                        text information, electromyography, and electromagnetic midsagittal articulometer (EMMA) data.
+                        Various integration schemes, including early and late fusions, cross-attention mechanisms, and
+                        self-supervised learning algorithms, have also been successfully explored.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        This timely special issue aims to collate latest advances in multi-modal SE and SS systems that
+                        exploit both conventional and unconventional modalities to further improve state-of-the-art
+                        performance in benchmark problems. We particularly welcome submissions for novel deep neural
+                        network based algorithms and architectures, including new feature processing methods for
+                        multimodal and cross-modal speech processing. We also encourage submissions that address
+                        practical issues related to multimodal data recording, energy-efficient system design and
+                        real-time low-latency solutions, such as for assistive hearing and speech communication
+                        applications.
+                    </div>
+                    <div style="font-size: 16px;text-align:justify; margin-top: 10px;">
+                        Special Issue research topics of interest relate to open problems needing addressed. These
+                        include, but are not limited to, the following.
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul style="margin-top: 10px;">
+                                <li><span style="font-size: 16px">Novel acoustic features and architectures
+                                        for multi-modal SE (MM-SE) and multi-modal SS (MM-SS) solutions. </span></li>
+                                <li><span style="font-size: 16px">The integration of multiple data
+                                        acquisition devices for multimodal learning and novel learning algorithms robust
+                                        to imperfect data.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Few-shot/zero-shot learning and
+                                        adaptation algorithms for MM-SE and MM-SS systems with a small amount of
+                                        training and adaptation data.</span></li>
+                                <li><span style="font-size: 16px">Self-supervised and unsupervised learning
+                                        techniques for MM-SE and MM-SS systems.
+                                    </span></li>
+                                <li><span style="font-size: 16px">Approaches that effectively reduce model
+                                        size and inference cost without reducing the speech quality and intelligibility
+                                        of processed signals.</span></li>
+                                <li><span style="font-size: 16px">Novel objective functions that
+                                        specifically aim to improve speech intelligibility/quality/automatic speech
+                                        recognition accuracy.</span></li>
+                                <li><span style="font-size: 16px">Approaches that effectively reduce model
+                                        size and inference cost without reducing the speech quality and intelligibility
+                                        of processed signals.</span></li>
+                                <li><span style="font-size: 16px">Novel applications of MM-SE and MM-SS in
+                                        human-human and human-machine communications. </span></li>
+                                <li><span style="font-size: 16px">Holistic evaluation metrics for MM-SE and
+                                        MM-SS systems.</span></li>
+                                <li><span style="font-size: 16px" class="purple-text">(Large language
+                                        model-based) Generative approaches for MM-SE and MM-SS.
+                                    </span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        <b>Deadlines:</b>
+                    </div>
+                    <div class="table-container">
+                        <table class="red-text">
+                            <tr>
+                                <td>Manuscript submission due:</td>
+                                <td style="padding: 0 20px;">April 30, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>First review completed:</td>
+                                <td style="padding: 0 20px;">July 31, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Revised manuscript due:</td>
+                                <td style="padding: 0 20px;">October 15, 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Second review completed:</td>
+                                <td style="padding: 0 20px;">January 31, 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Final manuscript due:</td>
+                                <td style="padding: 0 20px;">Feb 28, 2025</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <hr />
+
+                    <div style="font-size: 16px;text-align:justify;margin-top: 20px;">
+                        <b>Guest Editors:</b>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <tr>
+                                <td style="padding: 5px;">AMIR HUSSAIN (Edinburgh Napier University, UK)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">YU TSAO (Academia Sinica, Taiwan)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">JOHN H.L. HANSEN (University of Texas at Dallas, USA)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">NAOMI HARTE (Trinity College Dublin, Ireland)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">SHINJI WATANABE (Carnegie Mellon University, USA)</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">ISABEL TRANCOSO (Instituto Superior T&eacute;cnico, IST, Univ.
+                                    Lisbon, Portugal)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 5px;">SHIXIONG ZHANG (Tencent AI Lab, USA)
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+</body>
+
+</html>
