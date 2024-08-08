@@ -2552,8 +2552,10 @@ header.style3.sticky .header-right-btns>a {
 .event-wrap .nav-tabs {
   border-bottom: 0;
   display: block;
-  text-align: right;
+  /*text-align: center;*/
   padding-right: 8.125rem;
+  height: 120px;
+  width: 280px;
 }
 
 .event-wrap .nav-tabs li {
@@ -2564,6 +2566,8 @@ header.style3.sticky .header-right-btns>a {
   text-transform: uppercase;
   line-height: initial;
   position: relative;
+  display: inline-block;
+  /* 确保li是行内块级元素 */
 }
 
 .event-wrap .nav-tabs li a {
@@ -2573,8 +2577,14 @@ header.style3.sticky .header-right-btns>a {
   -webkit-border-radius: 0;
   border-radius: 0;
   color: #fff;
-  padding: 1.625rem 0 2.1875rem 3.125rem;
+  padding: 1rem 0;
   position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 8rem;
+  /* 设置Part A的宽度 */
+  text-align: center;
+
 }
 
 .event-wrap .nav-tabs li+li {
@@ -2598,23 +2608,7 @@ header.style3.sticky .header-right-btns>a {
   margin-bottom: 30.9375rem;
 }
 
-.event-wrap .nav-tabs li a:before {
-  content: "";
-  height: 4.9375rem;
-  width: 4.875rem;
-  /*background-color: #F4E141;*/
-  /*background-color: rgba(26, 57, 127, .88);
-  ;*/
-  background-color: inherit;
-  z-index: -1;
-  right: -2.375rem;
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  /*transform: rotate(45deg);*/
-  top: 1rem;
-}
+
 
 .event-wrap .nav-tabs li a:after {
   content: "";
@@ -8054,7 +8048,7 @@ hr {
 .tabs-wrap .nav-tabs li.nav-item a.nav-link {
   border: 0;
   color: rgba(26, 57, 127, .88);
-  padding: 0.8125rem 2.8125rem 1.5625rem;
+
 }
 
 .tabs-wrap .nav-tabs li.nav-item a.nav-link.active {
@@ -8064,6 +8058,35 @@ hr {
   background-color: #f6f7fb;
   border-radius: 0.9375rem 0.9375rem 0 0;
   /* 設置 active 狀態的圓角 */
+  white-space: nowrap;
+}
+
+.tabs-wrap .nav-tabs li.nav-item a.nav-link.active:before {
+  content: "";
+  height: 3.9rem;
+  /* 修改后的高度 */
+  width: 4rem;
+  /* 修改后的宽度，保持比例 */
+  background-color: inherit;
+  z-index: -1;
+  right: -1.875rem;
+  /* 调整后的位置 */
+  position: absolute;
+  transform: rotate(45deg);
+  top: 1rem;
+}
+
+.tabs-wrap .nav-tabs li.nav-item a.nav-link.active:after {
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  right: -4.875rem;
+  background-color: #F4E141;
+  border-radius: 50%;
+  border: 5px solid #fbfcfc;
+  top: 50%;
+  margin-top: -.75rem;
 }
 
 .tabs-wrap .tab-content {
