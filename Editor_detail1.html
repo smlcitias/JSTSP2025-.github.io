@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="assets/images/favicon.png" sizes="35x35" type="image/png">
+    <title>JSTSP</title>
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+    <!--<link rel="stylesheet" href="assets/css/slick.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <script>
+        function showContent(contentId) {
+            // Hide all content
+            document.querySelectorAll('.content').forEach(function (content) {
+                content.style.display = 'none';
+            });
+
+            // Show the selected content
+            document.getElementById(contentId).style.display = 'block';
+        }
+
+        function getQueryParam(param) {
+            let urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Show content based on URL parameter
+        document.addEventListener('DOMContentLoaded', function () {
+            const contentId = getQueryParam('content');
+            if (contentId && document.getElementById(contentId)) {
+                showContent(contentId);
+            } else {
+                showContent('contentA'); // Default to contentA if no valid parameter is present
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <main>
+        <header class="stick style1 w-100">
+            <div class="container">
+                <div class="logo-menu-wrap w-100 d-flex flex-wrap justify-content-between align-items-start">
+                    <div class="logo">
+                        <h1 class="mb-0"><a href="index.html" title="Home">
+                                <!--<img class="img-fluid"
+                                    src="assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png"></a>-->
+                        </h1>
+                    </div><!-- Logo -->
+                    <nav class="d-inline-flex align-items-center">
+                        <div class="header-left">
+                            <ul class="mb-0 list-unstyled d-inline-flex">
+                                <li class="children mb-0 list-unstyled"><a href="index.html#Scope" title="">Scope</a>
+                                </li>
+                                <li class="menu-item-has-children"><a href="index.html#Topics" title="">Topics</a>
+                                </li>
+                                <li class="children mb-0 list-unstyled"><a href="index.html#Important_Dates"
+                                        title="">Important
+                                        Dates</a>
+                                </li>
+                                <li class="menu-item-has-children"><a href="index.html#Guest_Editors" title="">Guest
+                                        Editors</a>
+                                </li>
+                                <li><a href="index.html#comments" title="">Comments</a></li>
+                                <li><a href="index.html#Special_Proposal" title="">Special Issue Proposal</a></li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div><!-- Logo Menu Wrap -->
+            </div>
+        </header><!-- Header -->
+
+        <section>
+            <div class="w-100 pt-180 pb-180 page-title-wrap text-center black-layer opc5 position-relative">
+                <div class="fixed-bg" style="background-image: url(assets/images/S__320159746.jpg);"></div>
+                <div class="container">
+                    <div class="page-title-inner d-inline-block">
+                        <h1 class="mb-0">Qualifications</h1>
+                    </div>
+                </div>
+            </div><!-- Page Title Wrap -->
+        </section>
+        <section>
+            <div class="w-100 pt-10 pb-120 position-relative">
+                <div class="container">
+                    <div class="speaker-detail-wrap w-100">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12 col-sm-12 col-lg-10">
+                                <div class="speaker-detail-desc w-100">
+                                    <div id="contentA" class="content">
+                                        <h3>AMIR HUSSAIN (Senior Member, IEEE)</h3>
+                                        <p style="text-align: justify;">obtained his BEng (1st Class
+                                            Honours) and PhD from
+                                            the University of
+                                            Strathclyde in Glasgow, UK, in 1992 and 1997 respectively. He is Director of
+                                            the Centre of AI and Robotics at Edinburgh Napier University, UK. His
+                                            research interests are cross-disciplinary and industry-led, and include a
+                                            focus on cognitively-inspired multi-modal speech signal processing for
+                                            assistive hearing and healthcare technologies. He has co-authored around 300
+                                            journal papers, supervised over 40 PhD students and led major national and
+                                            international projects. He is currently leading research grants totalling
+                                            over ?5M, including as Chief Investigator of the COG-MHEAR Programme Grant
+                                            (funded under the UK EPSRC Transformative Healthcare Technologies 2050 Call)
+                                            that aims to develop truly personalised, multi-modal hearing assistive
+                                            technology. He is founding Chief Editor of (Springer's) Cognitive
+                                            Computation journal and is/has been Associate Editor for various other
+                                            journals including (Elsevier&rsquo;s) Information Fusion, the IEEE Trans on
+                                            Neural
+                                            Networks and Learning Systems, IEEE Trans on Artificial Intelligence, IEEE
+                                            Trans. on systems, Man Cybernetics: Systems, and IEEE Trans on Emerging
+                                            Topics in Computational Intelligence. He is founding co-Chair of the UK
+                                            Special Interest Group on Speech-based Multi-Modal Information Processing
+                                            (UK-SIGMM), executive committee member of the UK Computing Research
+                                            Committee (the national expert panel of the IET and BCS for UK computing
+                                            research). He has served as General Chair of IEEE WCCI 2020 (the
+                                            world&rsquo;s
+                                            largest technical event on computational intelligence, comprising the
+                                            flagship IJCNN, FUZZ-IEEE and IEEE CEC) and the 2023 IEEE Smart World
+                                            Congress (featuring six co-located IEEE Conferences). </p>
+                                    </div>
+                                    <div id="contentB" class="content">
+                                        <h3>YU TSAO (Senior Member, IEEE)</h3>
+                                        <p style="text-align: justify;">received the B.S. and M.S.
+                                            degrees in electrical engineering from National Taiwan University, Taipei,
+                                            Taiwan, in 1999 and 2001, respectively, and the Ph.D. degree in electrical
+                                            and computer engineering from the Georgia Institute of Technology, Atlanta,
+                                            GA, USA, in 2008. From 2009 to 2011, he was a Researcher with the National
+                                            Institute of Information and Communications Technology, Tokyo, Japan, where
+                                            he engaged in research and product development in automatic speech
+                                            recognition for multilingual speech-to-speech translation. He is currently a
+                                            Research Fellow (Professor) and the Deputy Director with the Research Center
+                                            for Information Technology Innovation, Academia Sinica, Taipei. He is also a
+                                            Jointly Appointed Professor with the Department of Electrical Engineering,
+                                            Chung Yuan Christian University, Taoyuan, Taiwan. His research interests
+                                            include assistive oral communication technologies, audio coding, and
+                                            bio-signal processing. He was the recipient of National Innovation Awards
+                                            from 2018 to 2021, the Future Tech Breakthrough Award 2019, and the
+                                            Outstanding Elite Award from the Chung Hwa Rotary Educational Foundation
+                                            (2019-2020). His papere been awarded the 2021 IEEE Signal Processing Society
+                                            (SPS), Young Author and Best Paper Awards. He is currently an Associate
+                                            Editor for the <i> IEEE/ACM Transactions on Audio, Speech and Language
+                                                Processing and IEEE Signal Processing Letters. </i></p>
+                                    </div>
+                                    <div id="contentC" class="content">
+                                        <h3>JOHN H.L. HANSEN (Fellow, IEEE)</h3>
+                                        <p style="text-align: justify;">received Ph.D. & M.S. degrees
+                                            from Georgia Institute of Technology, and B.S.E.E. degree from Rutgers Univ.
+                                            He joined Univ. of Texas at Dallas (UTDallas) in 2005, where he is Associate
+                                            Dean for Research, Professor of Electrical & Computer Engineering,
+                                            Distinguished Univ. Chair in Telecommunications Engineering, and holds a
+                                            joint appointment in School of Behavioral & Brain Sciences (Speech &
+                                            Hearing). At UTDallas, he established the Center for Robust Speech Systems
+                                            (CRSS). He is an ISCA Fellow, IEEE Fellow, past Member and TC-Chair of IEEE
+                                            Signal Proc. Society, Speech & Language Proc. Tech. Comm.(SLTC), and
+                                            Technical Advisor to U.S. Delegate for NATO (IST/TG-01). He served as ISCA
+                                            President (2018-2021), and currently serves as Treasurer and ISCA Board
+                                            Member. He has supervised 99 PhD/MS thesis candidates (58 PhD, 41 MS/MA),
+                                            was recipient of 2020 UT-Dallas Provost&rsquo;s Award for Graduate Research
+                                            Mentoring, 2005 Univ. Colorado Teacher Recognition Award, and
+                                            author/co-author of +865 journal/conference papers in the field of
+                                            speech/language/hearing science, processing & technology with machine
+                                            learning advancements. He served as General Chair for ISCA INTERSPEECH-2002,
+                                            Co-Chair for ISCA INTERSPEECH-2022, Co-Organizer and Tech. Chair for IEEE
+                                            ICASSP-2010, and Co-General Chair and Organizer for IEEE Workshop on Spoken
+                                            Language Technology (SLT-2014) (Lake Tahoe, NV). He is serving as Tech.
+                                            Chair for IEEE ICASSP-2024. He received the IEEE Signal Processing
+                                            Society&rsquo;s
+                                            Leo Beranek MERITORIOUS SERVICE AWARD in 2021/22 &quot;for exemplary service
+                                            to
+                                            and leadership in the Signal Processing Society.&quot;</p>
+                                    </div>
+                                    <div id="contentD" class="content">
+                                        <h3>NAOMI HARTE</h3>
+                                        <p style="text-align: justify;">is Professor in Speech
+                                            Technology in the School of Engineering at Trinity College Dublin, Ireland.
+                                            She is Co-PI and a founding member of the ADAPT SFI Centre. In ADAPT, she
+                                            has led a major Research Theme centered on Multimodal Interaction involving
+                                            researchers from Universities across Ireland and was instrumental in
+                                            developing the future vision for the Centre for 2021-2026. She is also a
+                                            lead academic of the hugely successful Sigmedia Research Group in the School
+                                            of Engineering. She was appointed as an SFI Engineering Initiative Lecturer
+                                            in Digital Media in TCD in 2008 Her research centres around Human Speech
+                                            Communication. She treats speech as something we both hear and see, with a
+                                            strong multimodal aspect to her work. Her research involves the design and
+                                            application of mathematical algorithms to enhance or augment speech
+                                            communication between humans and technology. Much of that work is
+                                            underpinned by signal processing and machine learning, but also requires an
+                                            understanding of how humans interact. Her current research projects include
+                                            audio-visual speech recognition, speech synthesis evaluation, multimodal
+                                            speech analysis, and birdsong. Her industrial background brings a real-world
+                                            approach to her research. Prior to returning to academia, Naomi worked in
+                                            high-tech start-ups in the field of DSP Systems Development, including her
+                                            own company. She also previously worked in McMaster University in Canada.
+                                            She was a Visiting Professor at ICSI in Berkeley in 2015, and became a
+                                            Fellow of TCD in 2017. She earned a Google Faculty Award in 2018 and was
+                                            shortlisted for the AI Ireland Awards in 2019. She currently serves on the
+                                            Editorial Board of Computer Speech and Language and Chair of INTERSPEECH
+                                            2023.</p>
+                                    </div>
+                                    <div id="contentE" class="content">
+                                        <h3>SHINJI WATANABE (Fellow, IEEE)</h3>
+                                        <p style="text-align: justify;">is an Associate Professor at
+                                            Carnegie Mellon University, Pittsburgh, PA. He has been actively working on
+                                            deep learning based speech enhancement and separation for speech recognition
+                                            applications, leading to the publication of more than 350 papers in
+                                            peer-reviewed journals and conferences and receiving several awards. These
+                                            include the best paper award from the IEEE ASRU in 2019 for joint neural
+                                            modeling of speech separation, beamforming, and speech recognition, which is
+                                            related to this proposal. He also contributes to community-driven challenge
+                                            activities, including CHiME speech recognition and separation challenges,
+                                            which are famous speech processing activities, as an organizer and active
+                                            participant. He organized two IEEE JSTSP Special issues on Self-Supervised
+                                            Learning for Speech and Audio Processing and Far-Field Speech Processing in
+                                            the Era of Deep Learning. He serves as a Senior Area Editor of the IEEE
+                                            Transactions on Audio Speech and Language Processing. He was/has been a
+                                            member of several technical committees, including the APSIPA Speech,
+                                            Language, and Audio Technical Committee (SLA), IEEE Signal Processing
+                                            Society Speech and Language Technical Committee (SLTC), and Machine Learning
+                                            for Signal Processing Technical Committee (MLSP).</p>
+                                    </div>
+                                    <div id="contentF" class="content">
+                                        <h3>ISABEL TRANCOSO</h3>
+                                        <p style="text-align: justify;"> is a full professor
+                                            (retired), at Instituto Superior T&eacute;cnico (IST, Univ. Lisbon), the
+                                            University
+                                            where she got her PhD degree in 1987. She was the founder of the Human
+                                            Language Technology Lab and the former President of the Scientific Council
+                                            of INESC ID Lisbon. She chaired the ECE Department of IST, was
+                                            Editor-in-Chief of the IEEE Transactions on Speech and Audio Processing and
+                                            had many leadership roles in SPS (Signal Processing Society of IEEE) and
+                                            ISCA (International Speech Communication Association), namely having been
+                                            President of ISCA. She is vice-chair of the IEEE Fellow Committee. She was
+                                            elevated to IEEE Fellow in 2011, and to ISCA Fellow in 2014.</p>
+                                    </div>
+                                    <div id="contentG" class="content">
+                                        <h3>SHIXIONG ZHANG</h3>
+                                        <p style="text-align: justify;">from Tencent AI Lab, USA. He
+                                            received his Ph.D. degree from Cambridge University in 2014. From 2014 to
+                                            2018, he was a senior speech scientist at Microsoft, speech group. Currently
+                                            he is a principal researcher at Tencent AI Lab leading the multi-modal
+                                            research for speech recognition, speaker diarization, speech separation. He
+                                            was granted the &quot;IC Greatness award&quot; by Microsoft in 2015 for his
+                                            contribution on the &quot;Personalised Hey Cortana&quot; system in Windows
+                                            10. He was
+                                            nominated a 2011 Interspeech Best Student Paper Award for his paper
+                                            &quot;Structured Support Vector Machines for Noise Robust Continuous Speech
+                                            Recognition&quot;. Shi-Xiong has served as a Program Committee member of
+                                            APSIPA
+                                            and the Area Chair of several international conferences, including ICASSP,
+                                            Interspeech and ASRU in 2021 and 2022. He is also a member of IEEE Signal
+                                            Processing Society Speech and Language Technical Committee (SLTC).
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Speaker Detail Wrap -->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="w-100 pt-120 blue-layer opc1 position-relative">
+                <div class="fixed-bg back-blend-multiply bg-color4"></div>
+                <div class="container position-relative">
+                    <div class="clrs-wrap d-flex position-absolute">
+                        <i class="bg-color6"></i>
+                        <i class="bg-color7"></i>
+                        <i class="bg-color8"></i>
+                        <i class="bg-color9"></i>
+                        <i class="bg-color10"></i>
+                        <i class="bg-color11"></i>
+                    </div>
+                    <p class="mb-0" style="text-align: center; color:white;">JSTSP - &copy; 2024.</p>
+                </div>
+            </div>
+        </footer><!-- Footer -->
+    </main><!-- Main Wrapper -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/jquery.downCount.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/perfect-scrollbar.min.js"></script>
+    <!--<script src="assets/js/slick.min.js"></script>-->
+    <script src="assets/js/custom-scripts.js"></script>
+</body>
+
+</html>
